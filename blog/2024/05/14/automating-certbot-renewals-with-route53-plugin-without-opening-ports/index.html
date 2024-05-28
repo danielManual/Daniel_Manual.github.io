@@ -20,7 +20,7 @@
     
     
       
-        <title>Automating Certbot Renewals with Route53 Plugin (without opening port 80) - The Daniel Manual</title>
+        <title>Automating Certbot Renewals with Route53 Plugin (without opening ports) - The Daniel Manual</title>
       
     
     
@@ -82,7 +82,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#automating-certbot-renewals-with-route53-plugin-without-opening-port-80" class="md-skip">
+        <a href="#automating-certbot-renewals-with-route53-plugin-without-opening-ports" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Automating Certbot Renewals with Route53 Plugin (without opening port 80)
+              Automating Certbot Renewals with Route53 Plugin (without opening ports)
             
           </span>
         </div>
@@ -754,9 +754,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#3-edit-system-unit-to-use-creds" class="md-nav__link">
+  <a href="#3-edit-systemd-unit-to-use-creds" class="md-nav__link">
     <span class="md-ellipsis">
-      3. Edit System Unit to use creds
+      3. Edit Systemd Unit to use creds
     </span>
   </a>
   
@@ -841,15 +841,19 @@
         
 
 
-<h1 id="automating-certbot-renewals-with-route53-plugin-without-opening-port-80">Automating Certbot Renewals with Route53 Plugin (without opening port 80)</h1>
+<h1 id="automating-certbot-renewals-with-route53-plugin-without-opening-ports">Automating Certbot Renewals with Route53 Plugin (without opening ports)</h1>
 <p>Quick and dirty install and configuration of Certbot and authenticating with Route53 for DNS authorization</p>
 <!-- more -->
 
 <h2 id="goals">Goals:</h2>
 <ul>
-<li>Automatically Certbot renewals without opening port 443</li>
+<li>Automatically Certbot renewals without opening ports</li>
 <li>DNS validation using Route53</li>
 </ul>
+<div class="admonition info">
+<p class="admonition-title">References</p>
+<p><a href="https://certbot-dns-route53.readthedocs.io/en/stable/">Official Plugin Manual</a></p>
+</div>
 <h2 id="1-install-components">1. Install components</h2>
 <div class="admonition warning">
 <p class="admonition-title">Heads up...</p>
@@ -868,20 +872,25 @@
 <h2 id="2-generate-initial-cert">2. Generate initial cert:</h2>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>sudo certbot certonly --dns-route53 -d &lt;fqdn&gt;
 </span></code></pre></div>
-<h2 id="3-edit-system-unit-to-use-creds">3. Edit System Unit to use creds</h2>
+<h2 id="3-edit-systemd-unit-to-use-creds">3. Edit Systemd Unit to use creds</h2>
 <ol>
-<li>
-<p>Edit the systemd unit file
+<li>Edit the systemd unit file
 <div class="language-text highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>systemctl edit certbot.renew.service --full --force
-</span></code></pre></div></p>
-</li>
-<li>
-<p>Append (insert values between quotes):
+</span></code></pre></div></li>
+</ol>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<ul>
+<li>--force: </li>
+<li>--full: </li>
+</ul>
+</div>
+<ol>
+<li>Append (insert values between quotes):
 <div class="language-text highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>[Service]
 </span><span id="__span-4-2"><a id="__codelineno-4-2" name="__codelineno-4-2" href="#__codelineno-4-2"></a>Environment=&quot;AWS_ACCESS_KEY_ID=&lt;id&gt;
 </span><span id="__span-4-3"><a id="__codelineno-4-3" name="__codelineno-4-3" href="#__codelineno-4-3"></a>Environment=&quot;AWS_SECRET_ACCESS_KEY=&lt;key&gt;&quot;
-</span></code></pre></div></p>
-</li>
+</span></code></pre></div></li>
 </ol>
 
 
