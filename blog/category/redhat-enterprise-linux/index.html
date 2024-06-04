@@ -10,13 +10,13 @@
       
       
       
-        <link rel="canonical" href="https://danielmanual.blog/blog/category/azure/">
+        <link rel="canonical" href="https://danielmanual.blog/blog/category/redhat-enterprise-linux/">
       
       
-        <link rel="prev" href="../ansible/">
+        <link rel="prev" href="../red-hat-enterprise-linux/">
       
       
-        <link rel="next" href="../exchange/">
+        <link rel="next" href="../teams/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Azure - The Daniel Manual - Technical Documentation in my Style</title>
+        <title>Redhat Enterprise Linux - The Daniel Manual - Technical Documentation in my Style</title>
       
     
     
@@ -86,7 +86,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#azure" class="md-skip">
+        <a href="#redhat-enterprise-linux" class="md-skip">
           Skip to content
         </a>
       
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Azure
+              Redhat Enterprise Linux
             
           </span>
         </div>
@@ -463,34 +463,12 @@
                 
   
   
-    
-  
   
     
-      
-    
   
   
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Azure
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../azure/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -499,35 +477,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#create-an-exchange-account-for-a-teams-room-device" class="md-nav__link">
-    <span class="md-ellipsis">
-      Create an Exchange Account for a Teams Room Device
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -652,12 +601,34 @@
                 
   
   
-  
     
   
   
-    <li class="md-nav__item">
-      <a href="../redhat-enterprise-linux/" class="md-nav__link">
+    
+      
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Redhat Enterprise Linux
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -666,6 +637,35 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#new-host-setup-get-everything-setup-to-run-an-ansible-playbook" class="md-nav__link">
+    <span class="md-ellipsis">
+      New Host Setup - Get everything setup to run an ansible playbook
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -736,9 +736,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#create-an-exchange-account-for-a-teams-room-device" class="md-nav__link">
+  <a href="#new-host-setup-get-everything-setup-to-run-an-ansible-playbook" class="md-nav__link">
     <span class="md-ellipsis">
-      Create an Exchange Account for a Teams Room Device
+      New Host Setup - Get everything setup to run an ansible playbook
     </span>
   </a>
   
@@ -756,7 +756,7 @@
   <div class="md-content" data-md-component="content">
     <div class="md-content__inner">
       <header class="md-typeset">
-        <h1 id="azure">Azure</h1>
+        <h1 id="redhat-enterprise-linux">Redhat Enterprise Linux</h1>
       </header>
       
         <article class="md-post md-post--excerpt">
@@ -765,16 +765,15 @@
     <div class="md-post__meta md-meta">
       <ul class="md-meta__list">
         <li class="md-meta__item">
-          <time datetime="2024-05-20 00:00:00">May 20, 2024</time></li>
+          <time datetime="2024-05-31 00:00:00">May 31, 2024</time></li>
         
           <li class="md-meta__item">
             in
             
-              <a href="../teams/" class="md-meta__link">Teams</a>, 
-              <a href="../exchange/" class="md-meta__link">Exchange</a>, 
               <a href="../nerd-notes/" class="md-meta__link">Nerd Notes</a>, 
-              <a href="../powershell/" class="md-meta__link">Powershell</a>, 
-              <a href="./" class="md-meta__link">Azure</a></li>
+              <a href="./" class="md-meta__link">Redhat Enterprise Linux</a>, 
+              <a href="../linux/" class="md-meta__link">Linux</a>, 
+              <a href="../ansible/" class="md-meta__link">Ansible</a></li>
         
         
           
@@ -789,12 +788,11 @@
     </div>
   </header>
   <div class="md-post__content md-typeset">
-    <h2 id="create-an-exchange-account-for-a-teams-room-device"><a class="toclink" href="../../2024/05/20/create-an-exchange-account-for-a-teams-room-device/">Create an Exchange Account for a Teams Room Device</a></h2>
-<p>Quick and dirty path to setting up a new Teams Room device for a conference room.</p>
+    <h2 id="new-host-setup-get-everything-setup-to-run-an-ansible-playbook"><a class="toclink" href="../../2024/05/31/new-host-setup---get-everything-setup-to-run-an-ansible-playbook/">New Host Setup - Get everything setup to run an ansible playbook</a></h2>
 
     
       <nav class="md-post__action">
-        <a href="../../2024/05/20/create-an-exchange-account-for-a-teams-room-device/">
+        <a href="../../2024/05/31/new-host-setup---get-everything-setup-to-run-an-ansible-playbook/">
           Continue reading
         </a>
       </nav>

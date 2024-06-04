@@ -2,77 +2,107 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://danielmanual.blog/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://danielmanual.blog/asdf/page2/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <loc>https://danielmanual.blog/HelloWorld/page2/</loc>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/</loc>
-         <lastmod>2024-05-30</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://danielmanual.blog/blog/2024/05/20/create-an-exchange-account-for-a-teams-room-device/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/2024/05/14/automating-certbot-renewals-with-aws-route53-plugin-without-opening-ports/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://danielmanual.blog/blog/2024/05/30/how-to-downgrade-to-a-different-minor-release-and-lock-it-in/</loc>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/2024/05/22/configure-fortigate-to-send-logs-to-syslog-server/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://danielmanual.blog/blog/2024/05/31/new-host-setup---get-everything-setup-to-run-an-ansible-playbook/</loc>
+         <lastmod>2024-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://danielmanual.blog/blog/2024/05/20/create-an-exchange-account-for-a-teams-room-device/</loc>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/2024/05/29/ship-windows-firewall-logs-to-elasticsearch-using-elastic-agent-custom-logs-integration/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/posts/post12%20copy/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/posts/Wood/post12%20copy/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/archive/2024/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/category/nerd-notes/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://danielmanual.blog/blog/category/redhat-enterprise-linux/</loc>
+         <lastmod>2024-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://danielmanual.blog/blog/category/linux/</loc>
+         <lastmod>2024-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://danielmanual.blog/blog/category/ansible/</loc>
+         <lastmod>2024-06-04</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://danielmanual.blog/blog/category/red-hat-enterprise-linux/</loc>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/category/teams/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/category/exchange/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/category/powershell/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://danielmanual.blog/blog/category/azure/</loc>
-         <lastmod>2024-05-30</lastmod>
+         <lastmod>2024-06-04</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
